@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>615574269223-sb51hmfv5itecs2ec0kvrko993e8r57r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.615574269223-sb51hmfv5itecs2ec0kvrko993e8r57r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD1srfysScjrZ-JqyiCwC_N2Yxxm9e5cbs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>615574269223</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>digital.mxm.DailyRoutine</string>
+	<key>PROJECT_ID</key>
+	<string>dailyroutines-20ccf</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dailyroutines-20ccf.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:615574269223:ios:85de08095b008d87</string>
+	<key>DATABASE_URL</key>
+	<string>https://dailyroutines-20ccf.firebaseio.com</string>
+</dict>
+</plist>
