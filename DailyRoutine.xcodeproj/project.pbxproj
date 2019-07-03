@@ -14,6 +14,7 @@
 		8541C7CF22948B8E00CC1EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8541C7CE22948B8E00CC1EDF /* Assets.xcassets */; };
 		8541C7D222948B8E00CC1EDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8541C7D022948B8E00CC1EDF /* LaunchScreen.storyboard */; };
 		85C60CC422CB7958006480DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85C60CC322CB7958006480DE /* GoogleService-Info.plist */; };
+		85EA499F22CD2EE700F2A39A /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA499E22CD2EE700F2A39A /* WhiteButton.swift */; };
 		85EE2C0522998CA800843A22 /* TasksFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE2C0422998CA800843A22 /* TasksFactory.swift */; };
 		85EE2C0722998DE100843A22 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE2C0622998DE100843A22 /* Tasks.swift */; };
 		F7A1701173EEDA17995001EF /* Pods_DailyRoutine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D03DE1E58715A0FCEA59DC /* Pods_DailyRoutine.framework */; };
@@ -32,6 +33,7 @@
 		8541C7D322948B8E00CC1EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8541C7D922948E6400CC1EDF /* DailyRoutine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DailyRoutine.entitlements; sourceTree = "<group>"; };
 		85C60CC322CB7958006480DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85EA499E22CD2EE700F2A39A /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
 		85EE2C0422998CA800843A22 /* TasksFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksFactory.swift; sourceTree = "<group>"; };
 		85EE2C0622998DE100843A22 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 		F6D03DE1E58715A0FCEA59DC /* Pods_DailyRoutine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyRoutine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				8541C7C822948B8D00CC1EDF /* Main.storyboard */,
+				85EA499E22CD2EE700F2A39A /* WhiteButton.swift */,
 				8541C7CE22948B8E00CC1EDF /* Assets.xcassets */,
 				8541C7D022948B8E00CC1EDF /* LaunchScreen.storyboard */,
 			);
@@ -248,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8541C7CD22948B8D00CC1EDF /* DailyRoutine.xcdatamodeld in Sources */,
+				85EA499F22CD2EE700F2A39A /* WhiteButton.swift in Sources */,
 				8541C7C722948B8D00CC1EDF /* ViewController.swift in Sources */,
 				8541C7C522948B8D00CC1EDF /* AppDelegate.swift in Sources */,
 				85EE2C0722998DE100843A22 /* Tasks.swift in Sources */,

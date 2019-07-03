@@ -87,7 +87,13 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="3S3-DB-n9P">
                         <rightBarButtonItems>
-                            <barButtonItem title="Item" image="addIcon" id="eGi-LH-xl8"/>
+                            <barButtonItem title="Item" image="addIcon" id="eGi-LH-xl8">
+                                <connections>
+                                    <segue destination="R6A-ta-r73" kind="popoverPresentation" popoverAnchorBarButtonItem="eGi-LH-xl8" id="g3L-8D-12z">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </barButtonItem>
                             <barButtonItem title="Item" image="profileIcon" id="DzO-D0-lw5">
                                 <connections>
                                     <segue destination="2Ra-bE-Tid" kind="popoverPresentation" popoverAnchorBarButtonItem="DzO-D0-lw5" id="ONw-4l-H9P">
@@ -195,10 +201,10 @@
             </objects>
             <point key="canvasLocation" x="987" y="1205"/>
         </scene>
-        <!--Login E-mail-->
+        <!--Login-->
         <scene sceneID="5AO-q3-uDB">
             <objects>
-                <viewController id="O0d-Ru-pqa" userLabel="Login E-mail" sceneMemberID="viewController">
+                <viewController id="O0d-Ru-pqa" userLabel="Login" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nmq-Ub-eIX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
