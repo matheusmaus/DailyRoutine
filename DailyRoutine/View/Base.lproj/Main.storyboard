@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dP2-pS-AgW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O0d-Ru-pqa">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -284,15 +284,11 @@
         <!--Login-->
         <scene sceneID="5AO-q3-uDB">
             <objects>
-                <viewController id="O0d-Ru-pqa" userLabel="Login" sceneMemberID="viewController">
+                <viewController id="O0d-Ru-pqa" userLabel="Login" customClass="EmailViewController" customModule="DailyRoutine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nmq-Ub-eIX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG_Gradient" translatesAutoresizingMaskIntoConstraints="NO" id="U4Z-AZ-Wam">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Qual é o seu e-mail?" translatesAutoresizingMaskIntoConstraints="NO" id="qIV-qQ-iEL">
                                 <rect key="frame" x="20" y="295" width="187" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -317,7 +313,7 @@
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="20"/>
+                                        <integer key="value" value="15"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
@@ -338,15 +334,11 @@
         <!--Login Senha-->
         <scene sceneID="mxq-5o-GLq">
             <objects>
-                <viewController id="EEm-jb-TMo" userLabel="Login Senha" sceneMemberID="viewController">
+                <viewController id="EEm-jb-TMo" userLabel="Login Senha" customClass="SenhaViewController" customModule="DailyRoutine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CMh-r8-MLT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG_Gradient" translatesAutoresizingMaskIntoConstraints="NO" id="J86-yO-Ti2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ruF-sH-Ejh">
                                 <rect key="frame" x="20" y="446" width="374" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -357,7 +349,7 @@
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="20"/>
+                                        <integer key="value" value="15"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
@@ -1063,15 +1055,11 @@
         <!--Login Nova Conta-->
         <scene sceneID="Oiu-Cv-Y94">
             <objects>
-                <viewController id="NzA-Oq-Rtd" userLabel="Login Nova Conta" sceneMemberID="viewController">
+                <viewController id="NzA-Oq-Rtd" userLabel="Login Nova Conta" customClass="CriarContaViewController" customModule="DailyRoutine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L2y-77-4LL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG_Gradient" translatesAutoresizingMaskIntoConstraints="NO" id="I9H-XG-boo">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TsG-Sc-TjL">
                                 <rect key="frame" x="20" y="446" width="374" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1082,7 +1070,7 @@
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="20"/>
+                                        <integer key="value" value="15"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
@@ -1133,7 +1121,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BG_Gradient" width="1242" height="2688"/>
         <image name="Gradient" width="500" height="500"/>
         <image name="addIcon" width="25" height="25"/>
         <image name="calendar" width="25" height="25"/>
@@ -1144,7 +1131,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="vvY-To-Vff"/>
-        <segue reference="KxS-3P-eDA"/>
-        <segue reference="c3C-7x-gO7"/>
+        <segue reference="4Aq-xC-PhO"/>
+        <segue reference="Np5-EG-mEd"/>
     </inferredMetricsTieBreakers>
 </document>

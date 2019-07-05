@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let switchButton = UIButton(type: .custom)
+        switchButton.isSelected = true
+        switchButton.setImage(UIImage(named: "on-switch"), for: .selected)
+        switchButton.setImage(UIImage(named: "off-switch"), for: [])
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -35,33 +40,4 @@ class ViewController: UIViewController {
             // handle delete (by removing the data from your array and updating the tableview)
         }
     }
-    
-    
-    // Customize Header TableView
-    
-//    override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-//        let view = UIView(frame: CGRect((x:0,y:0,tableView.frame.size.width,:w,height:18))
-//        let label = UILabel(frame: CGRect((x:10,y:5,tableView.frame.size.width,:w,height:18)),
-//                            label.font = UIFont.systemFont(ofSize: 14),
-//        label.text = list.objectAtIndex(IndexPath.row) as! String
-//        view.addSubview(label)
-//        view.backgroundColor = UIColor.gray // Set your background color
-//
-//        return view
-//    }
-    
-    // Customize height Row TableView
-    
-//    override func tableView(_ tableView: UITableView,
-//                            heightForRowAt indexPath: IndexPath) -> CGFloat {
-//        // Make the first row larger to accommodate a custom cell.
-//        if indexPath.row == 0 {
-//            return 80
-//        }
-//
-//        // Use the default size for all other rows.
-//        return UITableView.automaticDimension
-//    }
-
-
 }

@@ -18,6 +18,74 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
+        
+        let db = Firestore.firestore()
+        
+        db.collection("DailyRoutine").addDocument(data: [
+        
+            "nome":"Escutar música",
+            "horario":"22:30",
+            "periodicidade": [true,true,true,true,true,true,true],
+            "alerta": 1,
+            "duracao": 0,
+            "notas": "15 páginas"
+            
+        ]) {
+            
+            (error:Error?) in
+            if let error = error {
+                print ("\(error.localizedDescription)")
+            }else{
+                print("Documento criado")
+            }
+        }
+        
+        db.collection("DailyRoutine").getDocuments {(snapshot, err) in
+            if let err = err {
+                print(err)
+            } else {
+                for document in snapshot!.documents{
+                    let ID = document.documentID as! String
+                    let nome = document.get("nome") as! String
+                    
+                    if ID == "cJpvfGalRxMRbW8HOuqt" {
+                        db.collection("DailyRoutine").document(ID).setData([
+                            
+                            "nome":"Lavar o carro",
+                            "horario":"15:30",
+                            "periodicidade": [false,false,false,false,false,true,true],
+                            "alerta": 1,
+                            "duracao": 2,
+                            "notas": "teste"
+                            
+                            ])
+                    }
+
+                }
+            }
+        }
+        
+//       Auth.auth().createUser(withEmail: "matheus.maus@gmail.com", password: "123456") { (user, error) in
+//            if let error = error {
+//                print(error)
+//            }
+//        }
+        
+        Auth.auth().signIn(withEmail: "matheus.maus@gmail.com", password: "123456") { (user, error) in
+                        if let error = error {
+                            print(error)
+                        } else {
+                            //print(user)
+            }
+                    }
+        
+        
+        
+        
+        
+        
+        
+        
         // Override point for customization after application launch.
         return true
     }
