@@ -13,6 +13,7 @@
 		8541C7CD22948B8D00CC1EDF /* DailyRoutine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8541C7CB22948B8D00CC1EDF /* DailyRoutine.xcdatamodeld */; };
 		8541C7CF22948B8E00CC1EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8541C7CE22948B8E00CC1EDF /* Assets.xcassets */; };
 		8541C7D222948B8E00CC1EDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8541C7D022948B8E00CC1EDF /* LaunchScreen.storyboard */; };
+		85536C7222D0289C00970635 /* LittleBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85536C7122D0289C00970635 /* LittleBGView.swift */; };
 		855D1B0422D0074B00D6F647 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D1B0322D0074B00D6F647 /* EmailViewController.swift */; };
 		855D1B0622D00FAE00D6F647 /* CriarContaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D1B0522D00FAE00D6F647 /* CriarContaViewController.swift */; };
 		855D1B0822D00FB700D6F647 /* SenhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D1B0722D00FB700D6F647 /* SenhaViewController.swift */; };
@@ -35,6 +36,7 @@
 		8541C7D122948B8E00CC1EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8541C7D322948B8E00CC1EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8541C7D922948E6400CC1EDF /* DailyRoutine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DailyRoutine.entitlements; sourceTree = "<group>"; };
+		85536C7122D0289C00970635 /* LittleBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleBGView.swift; sourceTree = "<group>"; };
 		855D1B0322D0074B00D6F647 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		855D1B0522D00FAE00D6F647 /* CriarContaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarContaViewController.swift; sourceTree = "<group>"; };
 		855D1B0722D00FB700D6F647 /* SenhaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenhaViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				8541C7C822948B8D00CC1EDF /* Main.storyboard */,
+				85536C7122D0289C00970635 /* LittleBGView.swift */,
 				855D1B0322D0074B00D6F647 /* EmailViewController.swift */,
 				855D1B0522D00FAE00D6F647 /* CriarContaViewController.swift */,
 				855D1B0722D00FB700D6F647 /* SenhaViewController.swift */,
@@ -264,6 +267,7 @@
 				85EA499F22CD2EE700F2A39A /* WhiteButton.swift in Sources */,
 				8541C7C722948B8D00CC1EDF /* ViewController.swift in Sources */,
 				8541C7C522948B8D00CC1EDF /* AppDelegate.swift in Sources */,
+				85536C7222D0289C00970635 /* LittleBGView.swift in Sources */,
 				85EE2C0722998DE100843A22 /* Tasks.swift in Sources */,
 				855D1B0422D0074B00D6F647 /* EmailViewController.swift in Sources */,
 				855D1B0622D00FAE00D6F647 /* CriarContaViewController.swift in Sources */,
