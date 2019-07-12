@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import Firebase
 
 class SenhaViewController: UIViewController {
+    
+    var email: String = ""
 
+    @IBOutlet weak var labelSenha: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+ 
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -30,6 +36,21 @@ class SenhaViewController: UIViewController {
         gradientLayer.frame = self.view.bounds
         
         self.view.layer.insertSublayer(gradientLayer, at:0)
+    }
+    
+
+        @IBAction func onBtnEntrar(_ sender: Any) {
+        
+        let senha = self.labelSenha.text
+        
+        Auth.auth().signIn(withEmail: email, password: senha!) { (user, error) in
+            if let error = error {
+                
+                print(error)
+            } else {
+                self.performSegue(withIdentifier: "segueMain", sender: true)
+            }
+        }
     }
     
 }

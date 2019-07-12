@@ -1,0 +1,222 @@
+
+/* Class = "UILabel"; text = "30 minutos"; ObjectID = "1Rd-pV-W4j"; */
+"1Rd-pV-W4j.text" = "30 minutos";
+
+/* Class = "UILabel"; text = "Não definido"; ObjectID = "1q1-6v-AvZ"; */
+"1q1-6v-AvZ.text" = "Não definido";
+
+/* Class = "UILabel"; text = "15 minutos"; ObjectID = "28o-oo-4gK"; */
+"28o-oo-4gK.text" = "15 minutos";
+
+/* Class = "UIBarButtonItem"; title = "Cancelar"; ObjectID = "2Sa-aq-uek"; */
+"2Sa-aq-uek.title" = "Cancelar";
+
+/* Class = "UINavigationItem"; title = "Adicionar Task"; ObjectID = "30d-tK-ujM"; */
+"30d-tK-ujM.title" = "Adicionar Task";
+
+/* Class = "UILabel"; text = "Duração"; ObjectID = "3GN-Ae-3fv"; */
+"3GN-Ae-3fv.text" = "Duração";
+
+/* Class = "UILabel"; text = "Duração"; ObjectID = "42A-IK-xWc"; */
+"42A-IK-xWc.text" = "Duração";
+
+/* Class = "UILabel"; text = "Requisitado para salvar suas tasks e sincronizar entre dispositivos"; ObjectID = "4kV-hK-6Uo"; */
+"4kV-hK-6Uo.text" = "Requisitado para salvar suas tasks e sincronizar entre dispositivos";
+
+/* Class = "UITableViewSection"; headerTitle = "Duração"; ObjectID = "5zA-DA-UzU"; */
+"5zA-DA-UzU.headerTitle" = "Duração";
+
+/* Class = "UIBarButtonItem"; title = "Salvar"; ObjectID = "6AZ-b9-rjG"; */
+"6AZ-b9-rjG.title" = "Salvar";
+
+/* Class = "UINavigationItem"; title = "Ajustes de Lembretes"; ObjectID = "784-rS-6kH"; */
+"784-rS-6kH.title" = "Ajustes de Lembretes";
+
+/* Class = "UITextField"; placeholder = "Senha"; ObjectID = "7kA-Q8-mvJ"; */
+"7kA-Q8-mvJ.placeholder" = "Senha";
+
+/* Class = "UIButton"; normalTitle = "Próximo"; ObjectID = "8wk-hg-WZ2"; */
+"8wk-hg-WZ2.normalTitle" = "Próximo";
+
+/* Class = "UILabel"; text = "15 minutos antes"; ObjectID = "9Cf-AU-J7Y"; */
+"9Cf-AU-J7Y.text" = "15 minutos antes";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "9V8-Km-cxS"; */
+"9V8-Km-cxS.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITableViewSection"; headerTitle = "Nome da Task"; ObjectID = "9a9-hA-7AQ"; */
+"9a9-hA-7AQ.headerTitle" = "Nome da Task";
+
+/* Class = "UILabel"; text = "Ajustes"; ObjectID = "9pF-Qv-tbi"; */
+"9pF-Qv-tbi.text" = "Ajustes";
+
+/* Class = "UILabel"; text = "Nenhum"; ObjectID = "9ti-kj-Kli"; */
+"9ti-kj-Kli.text" = "Nenhum";
+
+/* Class = "UIBarButtonItem"; title = "Cancelar"; ObjectID = "CI0-3v-TfJ"; */
+"CI0-3v-TfJ.title" = "Cancelar";
+
+/* Class = "UILabel"; text = "Na hora da task"; ObjectID = "Cdx-Fq-tSV"; */
+"Cdx-Fq-tSV.text" = "Na hora da task";
+
+/* Class = "UILabel"; text = "Ajustes"; ObjectID = "CxY-E9-bOv"; */
+"CxY-E9-bOv.text" = "Ajustes";
+
+/* Class = "UILabel"; text = "Nome dinâmico"; ObjectID = "D8k-fh-ILS"; */
+"D8k-fh-ILS.text" = "Nome dinâmico";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "DzO-D0-lw5"; */
+"DzO-D0-lw5.title" = "Item";
+
+/* Class = "UITableViewSection"; headerTitle = "Ajustes de Lembretes"; ObjectID = "Em7-ze-AKt"; */
+"Em7-ze-AKt.headerTitle" = "Ajustes de Lembretes";
+
+/* Class = "UIButton"; normalTitle = "Marcar como concluído"; ObjectID = "GhN-yL-EZq"; */
+"GhN-yL-EZq.normalTitle" = "Marcar como concluído";
+
+/* Class = "UILabel"; text = "1 hora antes"; ObjectID = "Gqs-aZ-K1a"; */
+"Gqs-aZ-K1a.text" = "1 hora antes";
+
+/* Class = "UITextView"; text = "Aqui vai o nome da Task!"; ObjectID = "H44-91-1aT"; */
+"H44-91-1aT.text" = "Aqui vai o nome da Task!";
+
+/* Class = "UILabel"; text = "5 minutos antes"; ObjectID = "H5h-Ui-m4S"; */
+"H5h-Ui-m4S.text" = "5 minutos antes";
+
+/* Class = "UILabel"; text = "Nome no Display"; ObjectID = "Ib5-j3-PhQ"; */
+"Ib5-j3-PhQ.text" = "Nome no Display";
+
+/* Class = "UITextView"; text = "Utilize ao menos 8 caracteres"; ObjectID = "JCP-PE-XuU"; */
+"JCP-PE-XuU.text" = "Utilize ao menos 8 caracteres";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "K3s-te-A3h"; */
+"K3s-te-A3h.text" = "Detail";
+
+/* Class = "UILabel"; text = "Alertas"; ObjectID = "KrN-Er-Cmn"; */
+"KrN-Er-Cmn.text" = "Alertas";
+
+/* Class = "UITableViewSection"; headerTitle = "Notas"; ObjectID = "OWP-tP-XAf"; */
+"OWP-tP-XAf.headerTitle" = "Notas";
+
+/* Class = "UILabel"; text = "2 horas"; ObjectID = "Oyq-tV-NPq"; */
+"Oyq-tV-NPq.text" = "2 horas";
+
+/* Class = "UITableViewSection"; headerTitle = "Nome da Task"; ObjectID = "PyI-1D-6Au"; */
+"PyI-1D-6Au.headerTitle" = "Nome da Task";
+
+/* Class = "UITextView"; text = "Bem-vindo (a) ao Daily Routine!"; ObjectID = "QDd-6B-a82"; */
+"QDd-6B-a82.text" = "Bem-vindo (a) ao Daily Routine!";
+
+/* Class = "UITextView"; text = "Defina uma senha"; ObjectID = "RTQ-lK-CQU"; */
+"RTQ-lK-CQU.text" = "Defina uma senha";
+
+/* Class = "UITableViewSection"; headerTitle = "Ajustes de Lembretes"; ObjectID = "Rnz-Km-RZz"; */
+"Rnz-Km-RZz.headerTitle" = "Ajustes de Lembretes";
+
+/* Class = "UITextView"; text = "12:00h"; ObjectID = "RqH-sy-WVC"; */
+"RqH-sy-WVC.text" = "12:00h";
+
+/* Class = "UILabel"; text = "Nome da Task"; ObjectID = "SsW-Eu-j06"; */
+"SsW-Eu-j06.text" = "Nome da Task";
+
+/* Class = "UITextField"; placeholder = "Nome"; ObjectID = "TW6-Ul-mrg"; */
+"TW6-Ul-mrg.placeholder" = "Nome";
+
+/* Class = "UITextField"; placeholder = "Task incrível"; ObjectID = "TWt-Co-b7y"; */
+"TWt-Co-b7y.placeholder" = "Task incrível";
+
+/* Class = "UIButton"; normalTitle = "Crie um Perfil"; ObjectID = "TsG-Sc-TjL"; */
+"TsG-Sc-TjL.normalTitle" = "Crie um Perfil";
+
+/* Class = "UIBarButtonItem"; title = "Concluído"; ObjectID = "YGN-QE-swX"; */
+"YGN-QE-swX.title" = "Concluído";
+
+/* Class = "UILabel"; text = "Tipo alerta"; ObjectID = "YLZ-sp-VrY"; */
+"YLZ-sp-VrY.text" = "Tipo alerta";
+
+/* Class = "UIButton"; normalTitle = "Esqueci minha senha"; ObjectID = "Ymd-3o-8wd"; */
+"Ymd-3o-8wd.normalTitle" = "Esqueci minha senha";
+
+/* Class = "UITextView"; text = "Notas:"; ObjectID = "Z2Q-3s-MJo"; */
+"Z2Q-3s-MJo.text" = "Notas:";
+
+/* Class = "UIButton"; normalTitle = "Apagar Task"; ObjectID = "Zi8-Mo-0pw"; */
+"Zi8-Mo-0pw.normalTitle" = "Apagar Task";
+
+/* Class = "UITextField"; placeholder = "Senha"; ObjectID = "a0v-2f-czU"; */
+"a0v-2f-czU.placeholder" = "Senha";
+
+/* Class = "UITextView"; text = "Finais de Semana"; ObjectID = "afJ-oD-PK0"; */
+"afJ-oD-PK0.text" = "Finais de Semana";
+
+/* Class = "UITextView"; text = "Qual a sua senha?"; ObjectID = "aga-2w-wE6"; */
+"aga-2w-wE6.text" = "Qual a sua senha?";
+
+/* Class = "UIBarButtonItem"; title = "Cancelar"; ObjectID = "bmK-67-ird"; */
+"bmK-67-ird.title" = "Cancelar";
+
+/* Class = "UITableViewSection"; headerTitle = "Periodicidade"; ObjectID = "cMO-m0-5cP"; */
+"cMO-m0-5cP.headerTitle" = "Periodicidade";
+
+/* Class = "UITextField"; placeholder = "Task incrível"; ObjectID = "czP-Ov-6q5"; */
+"czP-Ov-6q5.placeholder" = "Task incrível";
+
+/* Class = "UILabel"; text = "5 minutos"; ObjectID = "dMG-XF-clh"; */
+"dMG-XF-clh.text" = "5 minutos";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "eGi-LH-xl8"; */
+"eGi-LH-xl8.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Perfil"; ObjectID = "emm-Lz-2yZ"; */
+"emm-Lz-2yZ.title" = "Perfil";
+
+/* Class = "UITextView"; text = "1 hora de duração"; ObjectID = "fcr-FP-jbT"; */
+"fcr-FP-jbT.text" = "1 hora de duração";
+
+/* Class = "UILabel"; text = "1 hora"; ObjectID = "fmc-ZA-EMO"; */
+"fmc-ZA-EMO.text" = "1 hora";
+
+/* Class = "UITableViewSection"; headerTitle = "Duração"; ObjectID = "fsy-yw-NT1"; */
+"fsy-yw-NT1.headerTitle" = "Duração";
+
+/* Class = "UINavigationItem"; title = "Nome já criado"; ObjectID = "hx8-Hm-Y1C"; */
+"hx8-Hm-Y1C.title" = "Nome já criado";
+
+/* Class = "UITableViewSection"; headerTitle = "Horário"; ObjectID = "il8-KZ-hAU"; */
+"il8-KZ-hAU.headerTitle" = "Horário";
+
+/* Class = "UILabel"; text = "2 horas antes"; ObjectID = "n2K-0I-qKF"; */
+"n2K-0I-qKF.text" = "2 horas antes";
+
+/* Class = "UIBarButtonItem"; title = "Salvar"; ObjectID = "njv-SJ-7ig"; */
+"njv-SJ-7ig.title" = "Salvar";
+
+/* Class = "UITextView"; text = "Bem-vindo (a) de volta @Usuário!"; ObjectID = "q1T-jV-szS"; */
+"q1T-jV-szS.text" = "Bem-vindo (a) de volta @Usuário!";
+
+/* Class = "UITextView"; text = "Qual é o seu e-mail?"; ObjectID = "qIV-qQ-iEL"; */
+"qIV-qQ-iEL.text" = "Qual é o seu e-mail?";
+
+/* Class = "UIButton"; normalTitle = "Entrar"; ObjectID = "ruF-sH-Ejh"; */
+"ruF-sH-Ejh.normalTitle" = "Entrar";
+
+/* Class = "UIButton"; normalTitle = "Editar"; ObjectID = "sLH-hn-zXZ"; */
+"sLH-hn-zXZ.normalTitle" = "Editar";
+
+/* Class = "UITableViewSection"; headerTitle = "Alertas"; ObjectID = "uVu-Zc-bp0"; */
+"uVu-Zc-bp0.headerTitle" = "Alertas";
+
+/* Class = "UITextField"; placeholder = "Endereço de e-mail"; ObjectID = "utj-fi-VjM"; */
+"utj-fi-VjM.placeholder" = "Endereço de e-mail";
+
+/* Class = "UIBarButtonItem"; title = "Salvar"; ObjectID = "w6p-fX-Rqf"; */
+"w6p-fX-Rqf.title" = "Salvar";
+
+/* Class = "UILabel"; text = "12:00"; ObjectID = "wAb-fu-PrY"; */
+"wAb-fu-PrY.text" = "12:00";
+
+/* Class = "UILabel"; text = "30 minutos antes"; ObjectID = "xOV-F7-7pf"; */
+"xOV-F7-7pf.text" = "30 minutos antes";
+
+/* Class = "UITableViewSection"; headerTitle = "Notas"; ObjectID = "y4x-rK-dMt"; */
+"y4x-rK-dMt.headerTitle" = "Notas";

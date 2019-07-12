@@ -9,7 +9,9 @@
 import UIKit
 
 class CriarContaViewController: UIViewController {
-
+    
+    var email: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

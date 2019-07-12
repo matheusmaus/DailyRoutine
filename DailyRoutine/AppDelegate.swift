@@ -17,8 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        FirebaseApp.configure()
         
+         FirebaseApp.configure()
+
+        /*        
         let db = Firestore.firestore()
         
         db.collection("DailyRoutine").addDocument(data: [
@@ -71,16 +73,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            }
 //        }
         
+
+        
         Auth.auth().signIn(withEmail: "matheus.maus@gmail.com", password: "123456") { (user, error) in
-                        if let error = error {
-                            print(error)
-                        } else {
-                            //print(user)
+            if let error = error {
+                print(error)
+            } else {
+                //print(user)
             }
-                    }
+       }
         
         
-        
+        */
         
         
         

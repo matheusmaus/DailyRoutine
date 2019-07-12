@@ -278,7 +278,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ms-q8-jmg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="986.95652173913049" y="1204.6875"/>
+            <point key="canvasLocation" x="988" y="1156"/>
         </scene>
         <!--Login-->
         <scene sceneID="5AO-q3-uDB">
@@ -300,7 +300,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="done" textContentType="email"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8wk-hg-WZ2">
                                 <rect key="frame" x="20" y="440" width="374" height="49"/>
@@ -315,6 +315,9 @@
                                         <integer key="value" value="15"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onBtnNext:" destination="O0d-Ru-pqa" eventType="touchUpInside" id="2M4-48-Y97"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="close" translatesAutoresizingMaskIntoConstraints="NO" id="aCO-0z-1F0">
                                 <rect key="frame" x="25" y="44" width="26" height="26"/>
@@ -325,10 +328,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Jto-3u-ce5"/>
                     </view>
+                    <connections>
+                        <outlet property="labelEmail" destination="utj-fi-VjM" id="FIg-xk-lpR"/>
+                        <segue destination="EEm-jb-TMo" kind="show" identifier="segueSenha" id="Z3e-tq-onf"/>
+                        <segue destination="NzA-Oq-Rtd" kind="show" identifier="segueNovaConta" id="K1O-t1-yWh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y0t-Bs-ClC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="986.95652173913049" y="2459.5982142857142"/>
+            <point key="canvasLocation" x="988" y="2533"/>
         </scene>
         <!--Login Senha-->
         <scene sceneID="mxq-5o-GLq">
@@ -351,6 +359,9 @@
                                         <integer key="value" value="15"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onBtnEntrar:" destination="EEm-jb-TMo" eventType="touchUpInside" id="Uhk-La-GVf"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Qual a sua senha?" translatesAutoresizingMaskIntoConstraints="NO" id="aga-2w-wE6">
                                 <rect key="frame" x="20" y="301" width="303" height="38"/>
@@ -371,7 +382,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ymd-3o-8wd">
                                 <rect key="frame" x="131" y="514" width="153" height="31"/>
@@ -385,10 +396,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="t91-zR-21N"/>
                     </view>
+                    <connections>
+                        <outlet property="labelSenha" destination="a0v-2f-czU" id="YEL-gK-dZE"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="segueMain" id="lZd-Pd-F0s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bYr-cw-qg3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1781" y="2821"/>
+            <point key="canvasLocation" x="1780" y="2845"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rOT-ir-EKY">
@@ -406,7 +421,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qY9-eW-aWk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="213" y="138"/>
+            <point key="canvasLocation" x="226" y="138"/>
         </scene>
         <!--Adicionar Task-->
         <scene sceneID="j26-w8-ae7">
@@ -1092,7 +1107,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxt-DH-xsu">
                                 <rect key="frame" x="193" y="514" width="30" height="31"/>
@@ -1116,7 +1131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tib-Cv-xXu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1779.7101449275365" y="2091.9642857142858"/>
+            <point key="canvasLocation" x="1780" y="2095"/>
         </scene>
         <!--Nome Display-->
         <scene sceneID="lXH-4V-zKx">
@@ -1159,7 +1174,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TPb-PN-ouw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1924.6376811594205" y="1204.6875"/>
+            <point key="canvasLocation" x="1780" y="1156"/>
         </scene>
     </scenes>
     <resources>
@@ -1173,6 +1188,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="0Hy-W9-hZ5"/>
         <segue reference="4Aq-xC-PhO"/>
-        <segue reference="Np5-EG-mEd"/>
+        <segue reference="c3C-7x-gO7"/>
+        <segue reference="ef1-Rv-hrc"/>
     </inferredMetricsTieBreakers>
 </document>
