@@ -18,6 +18,8 @@
 		855D1B0622D00FAE00D6F647 /* CriarContaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D1B0522D00FAE00D6F647 /* CriarContaViewController.swift */; };
 		855D1B0822D00FB700D6F647 /* SenhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D1B0722D00FB700D6F647 /* SenhaViewController.swift */; };
 		85C60CC422CB7958006480DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85C60CC322CB7958006480DE /* GoogleService-Info.plist */; };
+		85D449F422D93C2800F96978 /* DuracaoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D449F322D93C2800F96978 /* DuracaoTableViewController.swift */; };
+		85D449F622D93C9900F96978 /* AlertasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D449F522D93C9900F96978 /* AlertasTableViewController.swift */; };
 		85EA499F22CD2EE700F2A39A /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA499E22CD2EE700F2A39A /* WhiteButton.swift */; };
 		85EE2C0522998CA800843A22 /* TasksFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE2C0422998CA800843A22 /* TasksFactory.swift */; };
 		85EE2C0722998DE100843A22 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE2C0622998DE100843A22 /* Tasks.swift */; };
@@ -41,6 +43,8 @@
 		855D1B0522D00FAE00D6F647 /* CriarContaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarContaViewController.swift; sourceTree = "<group>"; };
 		855D1B0722D00FB700D6F647 /* SenhaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenhaViewController.swift; sourceTree = "<group>"; };
 		85C60CC322CB7958006480DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85D449F322D93C2800F96978 /* DuracaoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuracaoTableViewController.swift; sourceTree = "<group>"; };
+		85D449F522D93C9900F96978 /* AlertasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlertasTableViewController.swift; path = "/Users/matheusmaus/Documents/App Development - PUCPR/#07 - Desenvolvimento de Aplicativos em iOS/DailyRoutine/DailyRoutine/View/AlertasTableViewController.swift"; sourceTree = "<absolute>"; };
 		85EA499E22CD2EE700F2A39A /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
 		85EE2C0422998CA800843A22 /* TasksFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksFactory.swift; sourceTree = "<group>"; };
 		85EE2C0622998DE100843A22 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				8541C7C822948B8D00CC1EDF /* Main.storyboard */,
+				85D449F522D93C9900F96978 /* AlertasTableViewController.swift */,
+				85D449F322D93C2800F96978 /* DuracaoTableViewController.swift */,
 				85536C7122D0289C00970635 /* LittleBGView.swift */,
 				855D1B0322D0074B00D6F647 /* EmailViewController.swift */,
 				855D1B0522D00FAE00D6F647 /* CriarContaViewController.swift */,
@@ -270,8 +276,10 @@
 				85EA499F22CD2EE700F2A39A /* WhiteButton.swift in Sources */,
 				8541C7C722948B8D00CC1EDF /* ViewController.swift in Sources */,
 				8541C7C522948B8D00CC1EDF /* AppDelegate.swift in Sources */,
+				85D449F422D93C2800F96978 /* DuracaoTableViewController.swift in Sources */,
 				85536C7222D0289C00970635 /* LittleBGView.swift in Sources */,
 				85EE2C0722998DE100843A22 /* Tasks.swift in Sources */,
+				85D449F622D93C9900F96978 /* AlertasTableViewController.swift in Sources */,
 				855D1B0422D0074B00D6F647 /* EmailViewController.swift in Sources */,
 				855D1B0622D00FAE00D6F647 /* CriarContaViewController.swift in Sources */,
 				85EE2C0522998CA800843A22 /* TasksFactory.swift in Sources */,

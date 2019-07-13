@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/matheusmaus/Documents/App Development - PUCPR/#07 - Desenvolvimento de Aplicativos em iOS/DailyRoutine/DailyRoutine/View/AlertasTableViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:DailyRoutine.xcodeproj">
    </FileRef>
    <FileRef
