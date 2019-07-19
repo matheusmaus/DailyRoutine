@@ -1,15 +1,27 @@
 //
-//  AlertasTableViewController.swift
+//  DurationTableViewController.swift
 //  DailyRoutine
 //
-//  Created by Matheus Marcos Maus on 12/07/19.
+//  Created by Vivian Henning on 18/07/19.
 //  Copyright © 2019 Matheus Marcos Maus. All rights reserved.
 //
 
 import UIKit
 
-class AlertasTableViewController: UITableViewController {
+class AjustesTableViewController: UITableViewController {
 
+
+    
+    @IBAction func onSave(_ sender: UIBarButtonItem) {
+        let index = IndexPath(row: 0, section: 0)
+        //var cell = self.tableView.cellForRow(at: index)
+        
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "taskName", for: index)
+        
+       //cell.theField.text = "Test"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,27 +34,15 @@ class AlertasTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return 0
-//    }
-//
-//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        // #warning Incomplete implementation, return the number of rows
-//        return 0
-//    }
-    
-    override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        if let cell = tableView.cellForRow(at: indexPath) {
-            cell.accessoryType = .none
-        }
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 0
     }
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let cell = tableView.cellForRow(at: indexPath) {
-            cell.accessoryType = .checkmark
-            
-        }
-    } 
+
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return 0
+    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

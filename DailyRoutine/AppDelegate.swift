@@ -19,6 +19,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
          FirebaseApp.configure()
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        
+        //DataSingleton.sharedInstance.logout()
+        
+        let login = DataSingleton.sharedInstance.getLoginDefaults()
+        
+        if ( login.email.count > 0 && login.senha.count > 0 ) {
+            let initialVIewController = storyBoard.instantiateViewController(withIdentifier: "navCtrlTask")
+            self.window?.rootViewController = initialVIewController
+            self.window?.makeKeyAndVisible()
+        } else {
+            let initialVIewController = storyBoard.instantiateViewController(withIdentifier: "emailViewController")
+            self.window?.rootViewController = initialVIewController
+            self.window?.makeKeyAndVisible()
+        }
+ 
+ 
+        
 
         /*        
         let db = Firestore.firestore()
@@ -37,7 +56,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             (error:Error?) in
             if let error = error {
                 print ("\(error.localizedDescription)")
-            }else{
+            } else {
                 print("Documento criado")
             }
         }

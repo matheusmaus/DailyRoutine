@@ -45,9 +45,9 @@ class SenhaViewController: UIViewController {
         
         Auth.auth().signIn(withEmail: email, password: senha!) { (user, error) in
             if let error = error {
-                
                 print(error)
             } else {
+                DataSingleton.sharedInstance.setLoginDefaults(self.email, senha!)
                 self.performSegue(withIdentifier: "segueMain", sender: true)
             }
         }

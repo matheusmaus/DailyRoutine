@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O0d-Ru-pqa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dP2-pS-AgW">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -115,7 +115,7 @@
         <!--Meu Dia-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="Meu Dia" customClass="ViewController" customModule="DailyRoutine" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="taskViewController" id="BYZ-38-t0r" userLabel="Meu Dia" customClass="ViewController" customModule="DailyRoutine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="988.40579710144937" y="137.94642857142856"/>
+            <point key="canvasLocation" x="549" y="33"/>
         </scene>
         <!--Perfil-->
         <scene sceneID="mbi-Pp-4XG">
@@ -272,7 +272,7 @@
         <!--Login-->
         <scene sceneID="5AO-q3-uDB">
             <objects>
-                <viewController id="O0d-Ru-pqa" userLabel="Login" customClass="EmailViewController" customModule="DailyRoutine" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="emailViewController" id="O0d-Ru-pqa" userLabel="Login" customClass="EmailViewController" customModule="DailyRoutine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nmq-Ub-eIX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -326,7 +326,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y0t-Bs-ClC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1897.1014492753625" y="2532.5892857142858"/>
+            <point key="canvasLocation" x="1687" y="2569"/>
         </scene>
         <!--Login Senha-->
         <scene sceneID="mxq-5o-GLq">
@@ -388,7 +388,7 @@
                     </view>
                     <connections>
                         <outlet property="labelSenha" destination="a0v-2f-czU" id="YEL-gK-dZE"/>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="segueMain" id="lZd-Pd-F0s"/>
+                        <segue destination="dP2-pS-AgW" kind="show" identifier="segueMain" id="Utv-Cf-yOg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bYr-cw-qg3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -398,7 +398,7 @@
         <!--Main Navigation Controller-->
         <scene sceneID="rOT-ir-EKY">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dP2-pS-AgW" userLabel="Main Navigation Controller" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="navCtrlTask" automaticallyAdjustsScrollViewInsets="NO" id="dP2-pS-AgW" userLabel="Main Navigation Controller" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PnS-l0-2ST">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -411,12 +411,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qY9-eW-aWk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="226" y="138"/>
+            <point key="canvasLocation" x="-394" y="33"/>
         </scene>
         <!--Adicionar Task-->
         <scene sceneID="j26-w8-ae7">
             <objects>
-                <tableViewController id="R6A-ta-r73" userLabel="Adicionar Task" sceneMemberID="viewController">
+                <tableViewController id="R6A-ta-r73" userLabel="Adicionar Task" customClass="AddTaskTableViewController" customModule="DailyRoutine" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="lIr-oz-C8h">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -431,7 +431,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="59.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Task incrível" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="czP-Ov-6q5">
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="taskName" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Task incrível" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="czP-Ov-6q5">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="60"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <nil key="textColor"/>
@@ -520,17 +520,22 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Adicionar Task" id="wt4-B9-9Cs" userLabel="Adicionar Task">
                         <barButtonItem key="leftBarButtonItem" title="Cancelar" id="dw8-zO-0DQ"/>
-                        <barButtonItem key="rightBarButtonItem" title="Salvar" id="Q3m-Cg-Hey"/>
+                        <barButtonItem key="rightBarButtonItem" title="Salvar" id="Q3m-Cg-Hey">
+                            <connections>
+                                <action selector="onSave:" destination="Hoo-tV-aeu" id="IOh-hI-WBD"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KbD-rF-NSk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Hoo-tV-aeu" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2689.8550724637685" y="137.94642857142856"/>
+            <point key="canvasLocation" x="2694" y="346"/>
         </scene>
         <!--Ajustes Lembretes-->
         <scene sceneID="fIw-JV-ocs">
             <objects>
-                <tableViewController id="jj0-AP-H1D" userLabel="Ajustes Lembretes" sceneMemberID="viewController">
+                <tableViewController id="jj0-AP-H1D" userLabel="Ajustes Lembretes" customClass="AjustesTableViewController" customModule="DailyRoutine" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="vax-ZS-OO1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1099,7 +1104,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gai-R5-4zL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1780" y="-970"/>
+            <point key="canvasLocation" x="2206" y="-1065"/>
         </scene>
         <!--Login Nova Conta-->
         <scene sceneID="Oiu-Cv-Y94">
@@ -1230,7 +1235,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kyY-eX-vRM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1779.7101449275365" y="137.94642857142856"/>
+            <point key="canvasLocation" x="1574" y="33"/>
         </scene>
         <!--Perfil Navigation Controller-->
         <scene sceneID="YZA-wa-AH8">
@@ -1248,7 +1253,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dTh-3N-Fp9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="986.95652173913049" y="1155.8035714285713"/>
+            <point key="canvasLocation" x="477" y="1359"/>
         </scene>
         <!--Nome Navigation Controller-->
         <scene sceneID="v5q-6u-lKn">
@@ -1292,8 +1297,8 @@
         <image name="profileIcon" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="0Hy-W9-hZ5"/>
         <segue reference="KxS-3P-eDA"/>
         <segue reference="c3C-7x-gO7"/>
-        <segue reference="lZd-Pd-F0s"/>
     </inferredMetricsTieBreakers>
 </document>
