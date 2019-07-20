@@ -8,11 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ReadTasksDelegate {
 
+    var tarefas: Array<Tarefa> = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        DataSingleton.sharedInstance.readTasksDelegate = self
+        DataSingleton.sharedInstance.retornaTarefas();
         
         let switchButton = UIButton(type: .custom)
         switchButton.isSelected = true
@@ -26,9 +30,6 @@ class ViewController: UIViewController {
         label.text = "Meu Dia"
         label.font = UIFont.boldSystemFont(ofSize: 24.0)
         self.navigationItem.leftBarButtonItem = UIBarButtonItem.init(customView: label)
-        
-    // Swipe for delete
-        
     }
     
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -40,4 +41,15 @@ class ViewController: UIViewController {
             // handle delete (by removing the data from your array and updating the tableview)
         }
     }
+    
+    
+    @IBAction func onAddTask(_ sender: Any) {
+        performSegue(withIdentifier: "segueTask", sender: true)
+    }
+    
+    func onReadTasks(success: Bool, tarefas: Array<Tarefa>) {
+        self.tarefas = tarefas
+    }
+    
+    
 }

@@ -17,9 +17,8 @@ class LittleBGView: UIView {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         let gradientLayer = layer as! CAGradientLayer
-        gradientLayer.colors = [UIColor(red: 255.0/255.0, green: 149.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor,
-                                UIColor(red: 255.0/255.0, green: 94.0/255.0, blue: 58.0/255.0, alpha: 1.0).cgColor]
+        gradientLayer.colors = [UIColor(red: 143.0/255.0, green: 148.0/255.0, blue: 251.0/255.0, alpha: 1.0).cgColor,
+                                UIColor(red: 78.0/255.0, green: 84.0/255.0, blue: 200.0/255.0, alpha: 1.0).cgColor]
         gradientLayer.locations = [0.0, 1.0]
     }
 }
-

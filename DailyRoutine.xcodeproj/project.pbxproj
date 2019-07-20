@@ -17,11 +17,11 @@
 		855D1B0422D0074B00D6F647 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D1B0322D0074B00D6F647 /* EmailViewController.swift */; };
 		855D1B0622D00FAE00D6F647 /* CriarContaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D1B0522D00FAE00D6F647 /* CriarContaViewController.swift */; };
 		855D1B0822D00FB700D6F647 /* SenhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855D1B0722D00FB700D6F647 /* SenhaViewController.swift */; };
+		8567813322E286E80049A53C /* Tarefa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8567813222E286E80049A53C /* Tarefa.swift */; };
+		8567813522E28C4C0049A53C /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8567813422E28C4C0049A53C /* MainTableViewController.swift */; };
 		85C60CC422CB7958006480DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85C60CC322CB7958006480DE /* GoogleService-Info.plist */; };
 		85D449F422D93C2800F96978 /* DuracaoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D449F322D93C2800F96978 /* DuracaoTableViewController.swift */; };
 		85EA499F22CD2EE700F2A39A /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EA499E22CD2EE700F2A39A /* WhiteButton.swift */; };
-		85EE2C0522998CA800843A22 /* TasksFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE2C0422998CA800843A22 /* TasksFactory.swift */; };
-		85EE2C0722998DE100843A22 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE2C0622998DE100843A22 /* Tasks.swift */; };
 		D55AF12822E12C08005CF310 /* AlertasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55AF12722E12C08005CF310 /* AlertasTableViewController.swift */; };
 		D55AF12A22E13366005CF310 /* DataSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55AF12922E13366005CF310 /* DataSingleton.swift */; };
 		D55AF12C22E13978005CF310 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55AF12B22E13978005CF310 /* Login.swift */; };
@@ -46,11 +46,11 @@
 		855D1B0322D0074B00D6F647 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		855D1B0522D00FAE00D6F647 /* CriarContaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarContaViewController.swift; sourceTree = "<group>"; };
 		855D1B0722D00FB700D6F647 /* SenhaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenhaViewController.swift; sourceTree = "<group>"; };
+		8567813222E286E80049A53C /* Tarefa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tarefa.swift; path = DailyRoutine/View/Tarefa.swift; sourceTree = SOURCE_ROOT; };
+		8567813422E28C4C0049A53C /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = DailyRoutine/View/MainTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		85C60CC322CB7958006480DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		85D449F322D93C2800F96978 /* DuracaoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuracaoTableViewController.swift; sourceTree = "<group>"; };
 		85EA499E22CD2EE700F2A39A /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
-		85EE2C0422998CA800843A22 /* TasksFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksFactory.swift; sourceTree = "<group>"; };
-		85EE2C0622998DE100843A22 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 		D55AF12722E12C08005CF310 /* AlertasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertasTableViewController.swift; sourceTree = "<group>"; };
 		D55AF12922E13366005CF310 /* DataSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataSingleton.swift; path = DailyRoutine/DataSingleton.swift; sourceTree = SOURCE_ROOT; };
 		D55AF12B22E13978005CF310 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Login.swift; path = DailyRoutine/Login.swift; sourceTree = SOURCE_ROOT; };
@@ -103,14 +103,12 @@
 				85C60CC522CB7AC3006480DE /* Model */,
 				85C60CC622CB7ACE006480DE /* View */,
 				85C60CC722CB7AD5006480DE /* Controller */,
+				8541C7C422948B8D00CC1EDF /* AppDelegate.swift */,
 				85C60CC322CB7958006480DE /* GoogleService-Info.plist */,
 				8541C7D922948E6400CC1EDF /* DailyRoutine.entitlements */,
-				8541C7C422948B8D00CC1EDF /* AppDelegate.swift */,
-				8541C7C622948B8D00CC1EDF /* ViewController.swift */,
 				8541C7D322948B8E00CC1EDF /* Info.plist */,
 				8541C7CB22948B8D00CC1EDF /* DailyRoutine.xcdatamodeld */,
-				85EE2C0422998CA800843A22 /* TasksFactory.swift */,
-				85EE2C0622998DE100843A22 /* Tasks.swift */,
+				8541C7C622948B8D00CC1EDF /* ViewController.swift */,
 			);
 			path = DailyRoutine;
 			sourceTree = "<group>";
@@ -120,6 +118,7 @@
 			children = (
 				D55AF12922E13366005CF310 /* DataSingleton.swift */,
 				D55AF12B22E13978005CF310 /* Login.swift */,
+				8567813222E286E80049A53C /* Tarefa.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,6 +138,7 @@
 				8541C7D022948B8E00CC1EDF /* LaunchScreen.storyboard */,
 				D55AF12D22E1534B005CF310 /* AddTaskTableViewController.swift */,
 				D55AF12F22E15389005CF310 /* AjustesTableViewController.swift */,
+				8567813422E28C4C0049A53C /* MainTableViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,18 +287,18 @@
 				855D1B0822D00FB700D6F647 /* SenhaViewController.swift in Sources */,
 				85EA499F22CD2EE700F2A39A /* WhiteButton.swift in Sources */,
 				D55AF12A22E13366005CF310 /* DataSingleton.swift in Sources */,
+				8567813522E28C4C0049A53C /* MainTableViewController.swift in Sources */,
 				8541C7C722948B8D00CC1EDF /* ViewController.swift in Sources */,
 				8541C7C522948B8D00CC1EDF /* AppDelegate.swift in Sources */,
 				85D449F422D93C2800F96978 /* DuracaoTableViewController.swift in Sources */,
+				8567813322E286E80049A53C /* Tarefa.swift in Sources */,
 				D55AF12C22E13978005CF310 /* Login.swift in Sources */,
 				85536C7222D0289C00970635 /* LittleBGView.swift in Sources */,
 				D55AF12E22E1534B005CF310 /* AddTaskTableViewController.swift in Sources */,
-				85EE2C0722998DE100843A22 /* Tasks.swift in Sources */,
 				D55AF13022E15389005CF310 /* AjustesTableViewController.swift in Sources */,
 				D55AF12822E12C08005CF310 /* AlertasTableViewController.swift in Sources */,
 				855D1B0422D0074B00D6F647 /* EmailViewController.swift in Sources */,
 				855D1B0622D00FAE00D6F647 /* CriarContaViewController.swift in Sources */,
-				85EE2C0522998CA800843A22 /* TasksFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GF6JBMPR58;
 				INFOPLIST_FILE = DailyRoutine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,7 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GF6JBMPR58;
 				INFOPLIST_FILE = DailyRoutine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

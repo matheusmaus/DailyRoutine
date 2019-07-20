@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import Firebase
 
 class CriarContaViewController: UIViewController {
     
     var email: String = ""
+    
+    @IBOutlet weak var labelPass: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,8 +26,8 @@ class CriarContaViewController: UIViewController {
     
     
     func setGradientBackground() {
-        let colorTop =  UIColor(red: 255.0/255.0, green: 149.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor
-        let colorBottom = UIColor(red: 255.0/255.0, green: 94.0/255.0, blue: 58.0/255.0, alpha: 1.0).cgColor
+        let colorTop =  UIColor(red: 143.0/255.0, green: 148.0/255.0, blue: 251.0/255.0, alpha: 1.0).cgColor
+        let colorBottom = UIColor(red: 78.0/255.0, green: 84.0/255.0, blue: 200.0/255.0, alpha: 1.0).cgColor
         
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [colorTop, colorBottom]
@@ -33,5 +36,29 @@ class CriarContaViewController: UIViewController {
         
         self.view.layer.insertSublayer(gradientLayer, at:0)
     }
+    
+    @IBAction func onBtnNewAccount(_ sender: Any) {
+        
+        let senha = self.labelPass.text
+        
+        Auth.auth().createUser(withEmail: email, password: senha!) { (user, error) in
+
+            if let error = error, (error as NSError).code == 17008 {
+                print(error)
+                DataSingleton.sharedInstance.toastMessage("Email inválido")
+            }
+            else if let error = error {
+                DataSingleton.sharedInstance.toastMessage("Erro ao criar o usuário. Talvez ele já exista no banco de dados.")
+                print(error)
+            }
+            else {
+                DataSingleton.sharedInstance.setLoginDefaults(self.email, senha!)
+                self.performSegue(withIdentifier: "segueMain2", sender: true)
+            }
+        }
+
+        
+    }
+    
     
 }

@@ -9,15 +9,14 @@
 import UIKit
 import Firebase
 
-class SenhaViewController: UIViewController {
-    
+class SenhaViewController: UIViewController, ValidaEmailSenhaDelegate {
+
     var email: String = ""
 
     @IBOutlet weak var labelSenha: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
- 
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -25,10 +24,9 @@ class SenhaViewController: UIViewController {
         super.viewWillAppear(animated)
     }
     
-    
     func setGradientBackground() {
-        let colorTop =  UIColor(red: 255.0/255.0, green: 149.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor
-        let colorBottom = UIColor(red: 255.0/255.0, green: 94.0/255.0, blue: 58.0/255.0, alpha: 1.0).cgColor
+        let colorTop =  UIColor(red: 143.0/255.0, green: 148.0/255.0, blue: 251.0/255.0, alpha: 1.0).cgColor
+        let colorBottom = UIColor(red: 78.0/255.0, green: 84.0/255.0, blue: 200.0/255.0, alpha: 1.0).cgColor
         
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [colorTop, colorBottom]
@@ -37,20 +35,24 @@ class SenhaViewController: UIViewController {
         
         self.view.layer.insertSublayer(gradientLayer, at:0)
     }
-    
 
         @IBAction func onBtnEntrar(_ sender: Any) {
         
         let senha = self.labelSenha.text
         
-        Auth.auth().signIn(withEmail: email, password: senha!) { (user, error) in
-            if let error = error {
-                print(error)
-            } else {
-                DataSingleton.sharedInstance.setLoginDefaults(self.email, senha!)
-                self.performSegue(withIdentifier: "segueMain", sender: true)
-            }
+        DataSingleton.sharedInstance.validaEmailSenhaDelegate = self
+        DataSingleton.sharedInstance.validaEmailSenha(email, senha!)
+    }
+    
+    func onValidaEmailSenha(valido: Bool) {
+        let senha = self.labelSenha.text
+        if (!valido) {
+            DataSingleton.sharedInstance.toastMessage("E-mail/senha incorretos")
+        } else {
+            DataSingleton.sharedInstance.setLoginDefaults(self.email, senha!)
+            self.performSegue(withIdentifier: "segueMain", sender: true)
         }
     }
+    
     
 }

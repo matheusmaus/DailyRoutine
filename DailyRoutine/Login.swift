@@ -2,7 +2,7 @@
 //  Login.swift
 //  DailyRoutine
 //
-//  Created by Vivian Henning on 18/07/19.
+//  Created by Matheus Marcos Maus on 18/07/19.
 //  Copyright © 2019 Matheus Marcos Maus. All rights reserved.
 //
 
